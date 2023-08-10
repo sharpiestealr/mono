@@ -14,9 +14,9 @@ classdef monociclo
         jw = 0.00077;
         jbr = 0.03937;
         jbw = 0.03458;
-        nr = 71
+        nr = 1 %71
         rer = 0.6;
-        nw = 131.25;
+        nw = 1 %131.25;
         rew = 2.4;
         bvw = 0.1;
         bvr = 0.1;
