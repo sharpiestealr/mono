@@ -38,8 +38,8 @@ pwmw_psip=tf(zpk(pwmw_psip));
 pwmw = [1 44.91 -58.36 -1039];
 pwmr = [1 41.73 -21.96 -868.9];
 
-a = roots(pwmr);
-b = roots(pwmw);
+a = roots(pwmr)
+b = roots(pwmw)
 
 poly_r = (s-a(3))*(s-a(2));
 poly_w = (s-b(3))*(s-b(2));
