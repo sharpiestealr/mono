@@ -1,5 +1,5 @@
 %% setup
-clear all; clc
+%clear all; clc
 
 s = tf('s');
 
@@ -19,7 +19,7 @@ rlocus(pwmr_trp);
 rlocus(pwmr_phi);
 rlocus(pwmr_phip);
 rlocus(pwmw_tw);
-rlocus(pwmw_twp)
+rlocus(pwmw_twp);
 rlocus(pwmw_psi);
 rlocus(pwmw_psip);
 
