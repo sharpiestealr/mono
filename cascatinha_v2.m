@@ -46,8 +46,10 @@ b = roots(pwmw);
 poly_r = (s-a(3))*(s-a(2));
 poly_w = (s-b(3))*(s-b(2));
 
-Gr = 1/poly_r
-Gw = 1/poly_w
+Gr = 1/poly_r;
+Gw = 1/poly_w;
+
+matriz = [pwmr_tr,0;pwmr_trp,0;pwmr_phi,0;pwmr_phip,0;0,pwmw_tw;0,pwmw_twp;0,pwmw_psi;0,pwmw_psip];
 
 syms Kr Kw real
 

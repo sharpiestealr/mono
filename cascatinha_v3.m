@@ -18,6 +18,13 @@ tpw = system.G_Twd_Pw;
 psi = system.G_Psi_Pw;
 psip = system.G_Psid_Pw;
 
+matriz = [tpr,0;
+         phi,0;
+         phip,0;
+         0,tpw;
+         0,psi;
+         0,psip]
+
 %% state space time
 
 %%% tpr
