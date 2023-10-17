@@ -104,6 +104,15 @@ psipKi = psipK(1);
 psipKt = psipK(2);
 psipKd = psipK(3);
 
+%% making a k matrix
+
+K = [tprK,0;
+     phiK,0;
+     phipK,0;
+     0,tpwK;
+     0,psiK;
+     0,phipK;];
+
 %% pid time baybee
 
 tprPID = tprKi/s + tprKt + tprKd*s;
