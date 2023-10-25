@@ -18,12 +18,16 @@ tpw = system.G_Twd_Pw;
 psi = system.G_Psi_Pw;
 psip = system.G_Psid_Pw;
 
-matriz = [tpr,0;
-         phi,0;
-         phip,0;
-         0,tpw;
-         0,psi;
-         0,psip]
+matriz = [ ...
+tr, system.G_Td_Pw; ... % linha Td
+tpr, system.G_Tdd_Pw; ... % linha Tdd
+phi, system.G_Phi_Pw; ... % linha Phi
+phip, system.G_Phid_Pw; ... % linha Phid
+system.G_Tw_Pr, tw; ... % linha Tw
+system.G_Tdw_Pr, tpw; ... % linha Tdw
+system.G_Psi_Pr, psi; ... % linha Psi
+system.G_Psid_Pr, psip ... % linha Psid
+    ]
 
 %% state space time
 
@@ -106,12 +110,12 @@ psipKd = psipK(3);
 
 %% making a k matrix
 
-K = [tprK,0;
-     phiK,0;
-     phipK,0;
-     0,tpwK;
-     0,psiK;
-     0,phipK;];
+%K = [tprK,0;...
+%     phiK,0;...
+%     phipK,0;...
+%     0,tpwK;...
+%     0,psiK;...
+%     0,phipK;];
 
 %% pid time baybee
 

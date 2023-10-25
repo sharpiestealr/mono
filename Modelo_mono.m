@@ -224,8 +224,21 @@ Rc=1*[1 0;
       0 1];
   
 K=lqr(Ard,Brd,Qc,Rc);
-Crd=eye(6);
 
 %% Simulacao
 v_ic = [0;0;0;0];
 x_ic = [0;5*pi/180;0;-5*pi/180];
+
+%% separacao ft para cascata
+C = [1 0 0 0 0 0;0 1 0 0 0 0;0 0 1 0 0 0;0 0 0 0 1 0];
+G = tf(ss(Ard,Brd,C,zeros(4,2)));
+
+% roll
+G_roll_v1 = G(1,1);
+G_thetap_v1 = minreal(G(3,1));
+G_roll_thetap = minreal(G_roll_v1/G_thetap_v1); 
+
+% pitch
+G_pitch_v2 = G(2,2);
+G_thetap_v2 = minreal(G(4,2));
+G_pitch_thetap = minreal(G_pitch_v2/G_thetap_v2);
