@@ -1,2 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Info Type="Shutdown" Visible="0" Icon="" File="limpa.m" Name="limpa"/>
+<Info Type="StartUp" Visible="0" Icon="" File="limpa.m" Name="limpa">
+    <Extension Value="HEAD" Name="StartUpPrev"/>
+</Info>
