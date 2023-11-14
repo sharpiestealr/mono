@@ -15,4 +15,4 @@ v = pi*rc*h;
 m3 = d*v;
 
 moi = 0.5*m1*(re^2-ri^2) + 3*(m2*ri^2/3) + 0.5*m3*rc^2 % 20x smaller
-      % 0.001321454 - nx, 10x smaller
+      % 0.0001347355 - nx

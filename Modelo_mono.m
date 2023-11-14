@@ -196,11 +196,22 @@ PWMr=0; PWMw=0;
 A = double(subs(As));
 B = double(subs(Bs));
 
+% consertando a ordem dos estados
+T = [1 0 0 0 0 0 0 0;
+     0 0 0 0 1 0 0 0;
+     0 1 0 0 0 0 0 0;
+     0 0 0 0 0 1 0 0;
+     0 0 1 0 0 0 0 0;
+     0 0 0 0 0 0 1 0;
+     0 0 0 1 0 0 0 0;
+     0 0 0 0 0 0 0 1];
+Ac = T\A*T;
+Bc = T\B;
+
 % Remocao dos estados da posicao das rodas de recao e do chao
 % Remoção do estado não controlado (posição do disco)
 Ar=A(2:end,2:end);
 Br=B(2:end,:);
-
 
 % Remoção do estado não controlado (posição da roda)
 Ard=[Ar(1,1) Ar(1,3:end);
