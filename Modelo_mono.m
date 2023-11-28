@@ -163,11 +163,12 @@ P=simplify(expand(-jacobian([s1; s2; s3; s4],u)));
 V=simplify(expand([s1; s2; s3; s4]-M*q_dd-G+P*u));
 
 % parametros
-Rd=0.20; Rw=0.071000; L=0.19406; d=(0.33660-L); Mw=0.30220; Mb=1.27712; Mr=0.47568;
-Jw=0.000770; Jr=0.013472; Jbr=0.04190; Jbw=0.07689;
-Kt_r=(958.2*0.00706155183333)/(20); Ke_r=(12-0.53*0.6)/(118*2*pi/60); R_r=0.6;
-Kt_w=(250*0.00706155183333)/(5);   Ke_w=(12-0.3*2.4)/(80*2*pi/60);   R_w=2.4;
-Br=0.1; Bw=0.1; g=9.81;
+%Rd=0.20; Rw=0.071000; L=0.19406; d=(0.33660-L); Mw=0.30220; Mb=1.27712; Mr=0.47568;
+%Jw=0.000770; Jr=0.013472; Jbr=0.04190; Jbw=0.07689;
+%Kt_r=(958.2*0.00706155183333)/(20); Ke_r=(12-0.53*0.6)/(118*2*pi/60); R_r=0.6;
+%Kt_w=(250*0.00706155183333)/(5);   Ke_w=(12-0.3*2.4)/(80*2*pi/60);   R_w=2.4;
+%Br=0.1; Bw=0.1; g=9.81;
+numvars;
 
 M=subs(M);
 V=subs(V);
@@ -195,25 +196,35 @@ PWMr=0; PWMw=0;
 
 A = double(subs(As));
 B = double(subs(Bs));
+C = eye(8);
 
 % consertando a ordem dos estados
-T = [1 0 0 0 0 0 0 0;
-     0 0 0 0 1 0 0 0;
-     0 1 0 0 0 0 0 0;
-     0 0 0 0 0 1 0 0;
-     0 0 1 0 0 0 0 0;
-     0 0 0 0 0 0 1 0;
-     0 0 0 1 0 0 0 0;
-     0 0 0 0 0 0 0 1];
-Ac = T\A*T;
-Bc = T\B;
+%T = [1 0 0 0 0 0 0 0;
+%     0 0 1 0 0 0 0 0;
+%     0 0 0 0 1 0 0 0;
+%     0 0 0 0 0 0 1 0;
+%     0 1 0 0 0 0 0 0;
+%     0 0 0 1 0 0 0 0;
+%     0 0 0 0 0 1 0 0;
+%     0 0 0 0 0 0 0 1];
+%A = T\A*T;
+%B = T\B;
 
 % Remocao dos estados da posicao das rodas de recao e do chao
 % Remoção do estado não controlado (posição do disco)
+% Ar=A(2:end,2:end);
+% Br=B(2:end,:);
+% Cr=C(2:end,2:end);
 Ar=A(2:end,2:end);
 Br=B(2:end,:);
 
 % Remoção do estado não controlado (posição da roda)
+% Ard=[Ar(1:3,1:3) Ar(1:3,5:end);
+%      Ar(5:end,1:3) Ar(5:end,5:end)];
+% Brd=[Br(1:3,:);
+%      Br(5:end,:)];
+% Crd=[Cr(1,1) Cr(1,3:end);
+%      Cr(3:end,1) Cr(3:end,3:end)];
 Ard=[Ar(1,1) Ar(1,3:end);
      Ar(3:end,1) Ar(3:end,3:end)];
 Brd=[Br(1,:);
@@ -241,7 +252,10 @@ v_ic = [0;0;0;0];
 x_ic = [0;5*pi/180;0;-5*pi/180];
 
 %% separacao ft para cascata
-C = [1 0 0 0 0 0;0 1 0 0 0 0;0 0 1 0 0 0;0 0 0 0 1 0];
+C = [1 0 0 0 0 0;...
+     0 1 0 0 0 0;...
+     0 0 1 0 0 0;...
+     0 0 0 0 1 0];
 G = tf(ss(Ard,Brd,C,zeros(4,2)));
 
 % roll
