@@ -168,7 +168,7 @@ V=simplify(expand([s1; s2; s3; s4]-M*q_dd-G+P*u));
 %Kt_r=(958.2*0.00706155183333)/(20); Ke_r=(12-0.53*0.6)/(118*2*pi/60); R_r=0.6;
 %Kt_w=(250*0.00706155183333)/(5);   Ke_w=(12-0.3*2.4)/(80*2*pi/60);   R_w=2.4;
 %Br=0.1; Bw=0.1; g=9.81;
-numvars;
+gab_numvars;
 
 M=subs(M);
 V=subs(V);
@@ -248,8 +248,8 @@ Rc=1*[1 0;
 K=lqr(Ard,Brd,Qc,Rc);
 
 %% Simulacao
-v_ic = [0;0;0;0];
-x_ic = [0;5*pi/180;0;-5*pi/180];
+v_ic = [0; 0; 0; 0];
+x_ic = [0; 5*pi/180; 0; -5*pi/180];
 
 %% separacao ft para cascata
 C = [1 0 0 0 0 0;...
@@ -257,7 +257,7 @@ C = [1 0 0 0 0 0;...
      0 0 1 0 0 0;...
      0 0 0 0 1 0];
 G = tf(ss(Ard,Brd,C,zeros(4,2)));
-
+    
 % roll
 G_roll_v1 = G(1,1);
 G_thetap_v1 = minreal(G(3,1));
