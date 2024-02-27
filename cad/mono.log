@@ -1,0 +1,297 @@
+﻿UG to IGES
+! INFO-     NX V2312.3002 / IGES Specification 5.3
+! INFO-      
+! INFO-     Start of Translation: 16-FEB-2024  5:47:39 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\cad\mono.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-  For Part: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\cad\mono.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Line ........................:     2
+! SUMMARY-  Arc/Circle ..................:     2
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Layer Category ..............:     6
+! SUMMARY-  Dimension Entities...........:
+! SUMMARY-     Parallel .................:     2
+! SUMMARY-     Cylindrical ..............:     2
+! SUMMARY-     Perpendicular ............:     1
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     2
+! SUMMARY-  Matrix ......................:     8
+! SUMMARY-  View ........................:     8
+! SUMMARY-  Layout ......................:     6
+! SUMMARY-  Component ...................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             53
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-  For Part: corpo.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     2
+! SUMMARY-  Line ........................:   202
+! SUMMARY-  Arc/Circle ..................:    32
+! SUMMARY-  B-Curve .....................:    94
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Layer Category ..............:     6
+! SUMMARY-  Drafting Entities............:
+! SUMMARY-     Note .....................:    28
+! SUMMARY-     Assorted Parts ...........:     1
+! SUMMARY-     Solid Fill ...............:     4
+! SUMMARY-     Linear Centerline ........:     2
+! SUMMARY-     Section Line .............:     2
+! SUMMARY-  Dimension Entities...........:
+! SUMMARY-     Horizontal ...............:     1
+! SUMMARY-     Vertical .................:     4
+! SUMMARY-     Cylindrical ..............:     1
+! SUMMARY-     Perpendicular ............:     2
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     2
+! SUMMARY-  Matrix ......................:    14
+! SUMMARY-  View ........................:    13
+! SUMMARY-  Layout ......................:     5
+! SUMMARY-  Drawing .....................:     1
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid/Sheet .................:
+! SUMMARY-     Face .....................:    17
+! SUMMARY-  Trim Curve ..................:    23
+! SUMMARY-  Undefined Entity ............:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            463
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-  For Part: roda.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Line ........................:     4
+! SUMMARY-  Arc/Circle ..................:    23
+! SUMMARY-  B-Curve .....................:    24
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Layer Category ..............:     6
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     2
+! SUMMARY-  Matrix ......................:    13
+! SUMMARY-  View ........................:     8
+! SUMMARY-  Layout ......................:     5
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid/Sheet .................:
+! SUMMARY-     Face .....................:     6
+! SUMMARY-  Trim Curve ..................:     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            107
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-  For Part: motor_R.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Line ........................:    16
+! SUMMARY-  Arc/Circle ..................:    16
+! SUMMARY-  B-Curve .....................:    26
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Layer Category ..............:     6
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     2
+! SUMMARY-  Matrix ......................:    11
+! SUMMARY-  View ........................:     8
+! SUMMARY-  Layout ......................:     5
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid/Sheet .................:
+! SUMMARY-     Face .....................:     7
+! SUMMARY-  Trim Curve ..................:     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            113
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-  For Part: roda de inércia - fixed.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     4
+! SUMMARY-  Line ........................:    74
+! SUMMARY-  Arc/Circle ..................:    68
+! SUMMARY-  B-Curve .....................:   116
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Layer Category ..............:     6
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     2
+! SUMMARY-  Parameter ...................:     2
+! SUMMARY-  Matrix ......................:     9
+! SUMMARY-  View ........................:     8
+! SUMMARY-  Layout ......................:     5
+! SUMMARY-  Reference Set ...............:     1
+! SUMMARY-  Solid/Sheet .................:
+! SUMMARY-     Face .....................:    21
+! SUMMARY-  Trim Curve ..................:    27
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            347
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 16-FEB-2024 5:47:40 PM
+! STATUS-    
+! FATAL-    CV0352 Memory allocation for dimension failed   UGID     62135
+! FATAL-    CV0352 Memory allocation for dimension failed   UGID     62141
+! FATAL-    CV0352 Memory allocation for dimension failed   UGID     62909
+! FATAL-    CV0352 Memory allocation for dimension failed   UGID     62917
+! FATAL-    CV0352 Memory allocation for dimension failed   UGID     62914
+! STATUS-   Creating the IGES file (Phase 3 of 3): 16-FEB-2024  5:47:40 PM
+! SUMMARY-   
+! SUMMARY-  Summary of IGES Output Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point ........................     8
+! SUMMARY-  Arc ..........................   129
+! SUMMARY-  Line .........................   399
+! SUMMARY-  BSpline Curve ................   216
+! SUMMARY-  Composite Curve ..............    80
+! SUMMARY-  Curve on Surface .............    55
+! SUMMARY-  Plane ........................
+! SUMMARY-      Unbounded ................    46
+! SUMMARY-  Trimmed Surface ..............    40
+! SUMMARY-  BSpline Surface ..............    51
+! SUMMARY-  Leader .......................    10
+! SUMMARY-  Note .........................     6
+! SUMMARY-  Dimensions ...................
+! SUMMARY-      Linear ...................     5
+! SUMMARY-  Copious Data .................
+! SUMMARY-      Witness Line .............    10
+! SUMMARY-  Symbol .......................     1
+! SUMMARY-  Color ........................     4
+! SUMMARY-  Name .........................    78
+! SUMMARY-  Transformation ...............    24
+! SUMMARY-  Definition Levels ............     5
+! SUMMARY-  Level Function ...............     5
+! SUMMARY-  Instance .....................     7
+! SUMMARY-  Subfigure Definition .........     4
+! SUMMARY-  View .........................     8
+! SUMMARY-                                 -----
+! SUMMARY-  Total                           1191
+! INFO-      
+! INFO-     End of Translation: 16-FEB-2024  5:47:42 PM
+! INFO-      
+IGES to UG
+! INFO-     NX V2312.3002 / IGES Specification 5.3
+! INFO-      
+! INFO-     Start of Translation: 16-FEB-2024  5:48:27 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\cad\mono.igs
+! SUMMARY-   
+! SUMMARY-  Summary of Supported IGES Entities in file
+! SUMMARY-   
+! SUMMARY-  Entity Type                    Count
+! SUMMARY-  -----------                    -----
+! SUMMARY-  Point (116/0)................:     8
+! SUMMARY-  Line (110/0).................:   399
+! SUMMARY-  Circular Arc (100/0).........:   129
+! SUMMARY-  B-Spline Curve (126/0-4).....:   216
+! SUMMARY-  Composite Curve (102/0)......:    80
+! SUMMARY-  Plane (108/-1,0,1)...........:    46
+! SUMMARY-  B-Spline Surface (128/0-9)...:    51
+! SUMMARY-  Curve of Surface (142/0).....:    55
+! SUMMARY-  Trimmed Surface (144/0)......:    40
+! SUMMARY-  Trans Matrix (124/0,1,10,12).:    24
+! SUMMARY-  Witness Line (106/40)........:    10
+! SUMMARY-  Note (212/0-8,101-102,105)...:     6
+! SUMMARY-  Leader Arrow (214/1-12)......:    10
+! SUMMARY-  Linear Dimension (216/0-2)...:     5
+! SUMMARY-  General Symbol (228/0-3).....:     1
+! SUMMARY-  Subfigure Definition (308/0).:     4
+! SUMMARY-  Subfigure Instance (408/0)...:     7
+! SUMMARY-  View (410/0).................:     8
+! SUMMARY-  Color Definition (314/0,1)...:     4
+! SUMMARY-  Definition Levels (406/1)....:     5
+! SUMMARY-  Level Function (406/3).......:     5
+! SUMMARY-  Name (406/15)................:    78
+! SUMMARY-                                 -----
+! SUMMARY-  Total                           1191
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 16-FEB-2024 5:48:27 PM
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-FEB-2024  5:48:27 PM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     2
+! SUMMARY-  Line ........................:    24
+! SUMMARY-  Arc/Circle ..................:     2
+! SUMMARY-  Drafting Entities............:    16
+! SUMMARY-     Note .....................:    15
+! SUMMARY-     Assorted Parts ...........:     1
+! SUMMARY-  Matrix ......................:     2
+! SUMMARY-  Solid/Sheet .................:    17
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             63
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-FEB-2024  5:48:27 PM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Arc/Circle ..................:     3
+! SUMMARY-  Matrix ......................:     3
+! SUMMARY-  Solid/Sheet .................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             13
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-FEB-2024  5:48:27 PM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-FEB-2024  5:48:28 PM
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     4
+! SUMMARY-  Line ........................:    12
+! SUMMARY-  Arc/Circle ..................:    14
+! SUMMARY-  Matrix ......................:    14
+! SUMMARY-  Solid/Sheet .................:    21
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             65
+! STATUS-   Creating the UG part (Phase 3 of 3): 16-FEB-2024  5:48:28 PM
+! ERROR-    UG2261 Line has zero length.
+! ERROR-           Entity Type  214 Form    3 at DE#    2347 not processed.
+! ERROR-    UG2261 Line has zero length.
+! ERROR-           Entity Type  214 Form    3 at DE#    2349 not processed.
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Line ........................:     2
+! SUMMARY-  Arc/Circle ..................:     2
+! SUMMARY-  Part Attribute ..............:     7
+! SUMMARY-  Layer Category ..............:     5
+! SUMMARY-  Drafting Entities............:     7
+! SUMMARY-     Note .....................:     2
+! SUMMARY-     Assorted Parts ...........:     5
+! SUMMARY-  Matrix ......................:     2
+! SUMMARY-  View ........................:     8
+! SUMMARY-  Component ...................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             41
+! INFO-      
+! INFO-     End of Translation: 16-FEB-2024  5:48:28 PM
+! INFO-      
