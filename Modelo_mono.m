@@ -168,7 +168,7 @@ V=simplify(expand([s1; s2; s3; s4]-M*q_dd-G+P*u));
 %Kt_r=(958.2*0.00706155183333)/(20); Ke_r=(12-0.53*0.6)/(118*2*pi/60); R_r=0.6;
 %Kt_w=(250*0.00706155183333)/(5);   Ke_w=(12-0.3*2.4)/(80*2*pi/60);   R_w=2.4;
 %Br=0.1; Bw=0.1; g=9.81;
-gab_numvars;
+numvars;
 
 M=subs(M);
 V=subs(V);
@@ -249,7 +249,7 @@ K=lqr(Ard,Brd,Qc,Rc);
 
 %% Simulacao
 v_ic = [0; 0; 0; 0];
-x_ic = [0; 5*pi/180; 0; -5*pi/180];
+x_ic = [0; 5*pi/180; 0; -5*pi/180]*1;
 
 %% separacao ft para cascata
 C = [1 0 0 0 0 0;...
@@ -267,3 +267,10 @@ G_roll_thetap = minreal(G_roll_v1/G_thetap_v1);
 G_pitch_v2 = G(2,2);
 G_thetap_v2 = minreal(G(4,2));
 G_pitch_thetap = minreal(G_pitch_v2/G_thetap_v2);
+
+%% declaring pid backups
+
+pidtop = [20 25 5 100];
+ktop = 0.01;
+pidbottom = [10 20 15 100];
+kbottom = 0.35;
