@@ -1,0 +1,9 @@
+^.clangd$
+^.cache$
+^compile_commands.json$
+^mbed$
+^.mbed$
+^BUILD$
+^CalibrateMagneto$
+^HMC5883L$
+^MPU6050$

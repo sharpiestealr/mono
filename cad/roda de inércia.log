@@ -1,0 +1,77 @@
+﻿UG to IGES
+! INFO-     NX V2312.3002 / IGES Specification 5.3
+! INFO-      
+! INFO-     Start of Translation: 27-MAR-2024  4:58:47 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\cad\roda de inércia - fixed.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Input Entities
+! SUMMARY-  For Part: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\cad\roda de inércia - fixed.prt 
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     7
+! SUMMARY-  Line ........................:   175
+! SUMMARY-  Arc/Circle ..................:   128
+! SUMMARY-  B-Curve .....................:   134
+! SUMMARY-  Part Attribute ..............:     1
+! SUMMARY-  Layer Category ..............:     6
+! SUMMARY-  Drafting Entities............:
+! SUMMARY-     Note .....................:    20
+! SUMMARY-     Assorted Parts ...........:     1
+! SUMMARY-     Solid Fill ...............:     4
+! SUMMARY-     Linear Centerline ........:     4
+! SUMMARY-  Font ........................:     1
+! SUMMARY-  Color Table .................:     2
+! SUMMARY-  Coordinate System ...........:     3
+! SUMMARY-  Parameter ...................:     2
+! SUMMARY-  Matrix ......................:    11
+! SUMMARY-  View ........................:    10
+! SUMMARY-  Layout ......................:     5
+! SUMMARY-  Drawing .....................:     1
+! SUMMARY-  Solid/Sheet .................:
+! SUMMARY-     Face .....................:    24
+! SUMMARY-     Edge .....................:    62
+! SUMMARY-  Trim Curve ..................:    36
+! SUMMARY-  Undefined Entity ............:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            637
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 27-MAR-2024 4:58:48 PM
+! STATUS-    
+! STATUS-   Creating the IGES file (Phase 3 of 3): 27-MAR-2024  4:58:48 PM
+! SUMMARY-   
+! SUMMARY-  Summary of IGES Output Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point ........................     7
+! SUMMARY-  Arc ..........................   128
+! SUMMARY-  Line .........................   404
+! SUMMARY-  BSpline Curve ................   110
+! SUMMARY-  Composite Curve ..............    48
+! SUMMARY-  Curve on Surface .............    30
+! SUMMARY-  Plane ........................
+! SUMMARY-      Unbounded ................    36
+! SUMMARY-  Trimmed Surface ..............    18
+! SUMMARY-  BSpline Surface ..............    24
+! SUMMARY-  Note .........................    21
+! SUMMARY-  Copious Data .................
+! SUMMARY-      Centerline ...............     4
+! SUMMARY-  Symbol .......................     1
+! SUMMARY-  Sectioned Area ...............     4
+! SUMMARY-  Color ........................     5
+! SUMMARY-  Name .........................    45
+! SUMMARY-  Transformation ...............    10
+! SUMMARY-  Definition Levels ............     5
+! SUMMARY-  Level Function ...............     5
+! SUMMARY-  Drawing ......................     1
+! SUMMARY-  Drawing Size Definition ......     1
+! SUMMARY-  Drawing Unit Definition ......     1
+! SUMMARY-  View .........................     9
+! SUMMARY-  Views Visible ................     1
+! SUMMARY-  Views Visible (Color) ........     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            919
+! INFO-      
+! INFO-     End of Translation: 27-MAR-2024  4:58:48 PM
+! INFO-      
