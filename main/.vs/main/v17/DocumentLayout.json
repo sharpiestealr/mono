@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pinki\\OneDrive\\avi\u00E3ozinho\\monociclo\\mono\\main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECF5903A-AA2B-4B6F-B805-60C6C95B2DBB}|main.vcxproj|C:\\Users\\pinki\\OneDrive\\avi\u00E3ozinho\\monociclo\\mono\\main\\main20240715.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECF5903A-AA2B-4B6F-B805-60C6C95B2DBB}|main.vcxproj|solutionrelative:main20240715.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main20240715.cpp",
+              "DocumentMoniker": "C:\\Users\\pinki\\OneDrive\\avi\u00E3ozinho\\monociclo\\mono\\main\\main20240715.cpp",
+              "RelativeDocumentMoniker": "main20240715.cpp",
+              "ToolTip": "C:\\Users\\pinki\\OneDrive\\avi\u00E3ozinho\\monociclo\\mono\\main\\main20240715.cpp",
+              "RelativeToolTip": "main20240715.cpp",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAIgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-15T22:48:54.238Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
