@@ -1,0 +1,54 @@
+﻿
+Unigraphics NX2312.3002 / 2D Exchange
+
+Reading part: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\cad\corpo nyoom.prt
+
+
+Writing part: C:\Users\pinki\AppData\Local\Temp\pink2D1C6C6Efj0t.prt
+
+Elapsed time   :    0 minutes,  4 seconds
+Actual CPU Time:    0 minutes,  4 seconds
+
+INFO-
+INFO-		Unigraphics Version NX2312.3002 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Fri Jun 21 09:09:33 2024
+INFO-
+STATUS-		Converting C:\Users\pinki\AppData\Local\Temp\pink2D1C6C6Efj0t.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\pinki\AppData\Local\Temp\pink2D1C6C6Efj0t.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	29
+SUMMARY-	Arc ......................................:	3
+SUMMARY-	Circle ...................................:	18
+SUMMARY-	Spline ...................................:	2
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	52
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\corpo.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Arc ......................................:	3
+SUMMARY-	Circle ...................................:	18
+SUMMARY-	Spline ...................................:	2
+SUMMARY-	Line .....................................:	29
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	58
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Fri Jun 21 09:10:05 2024
+INFO-		Translation CPU time: 0 m, 31 sINFO-

@@ -1,0 +1,52 @@
+﻿
+Unigraphics NX2312.3002 / 2D Exchange
+
+Reading part: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\cad\corpo but on a plane.prt
+
+
+Writing part: C:\Users\pinki\AppData\Local\Temp\pink610C638Bqw80.prt
+
+Elapsed time   :    0 minutes,  1 seconds
+Actual CPU Time:    0 minutes,  0 seconds
+
+INFO-
+INFO-		Unigraphics Version NX2312.3002 to AutoCAD 2004
+INFO-		
+INFO-
+INFO-		Running UGTODXF Translator .....
+INFO-
+INFO-		Start of Translation: Thu Jun 27 14:13:00 2024
+INFO-
+STATUS-		Converting C:\Users\pinki\AppData\Local\Temp\pink610C638Bqw80.prt
+STATUS-
+SUMMARY-
+SUMMARY-	Summary of Unigraphics Input Entities
+SUMMARY-	For Unigraphics File: C:\Users\pinki\AppData\Local\Temp\pink610C638Bqw80.prt
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Line .....................................:	15
+SUMMARY-	Arc ......................................:	1
+SUMMARY-	Circle ...................................:	114
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	130
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+STATUS-
+INFO-
+INFO-		Writing File: C:\Users\pinki\OneDrive\aviãozinho\monociclo\mono\cad\corpo but on a plane.dxf
+SUMMARY-	Summary of AutoCAD Output Entities
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Entity Type					Count
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Arc ......................................:	1
+SUMMARY-	Circle ...................................:	114
+SUMMARY-	Line .....................................:	15
+SUMMARY-	Layout ...................................:	6
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-	Total ....................................:	136
+SUMMARY-	------------------------------------------------------------------
+SUMMARY-
+INFO-
+INFO-		End of Translation: Thu Jun 27 14:13:00 2024
+INFO-		Translation CPU time: 0 m, 0 sINFO-
